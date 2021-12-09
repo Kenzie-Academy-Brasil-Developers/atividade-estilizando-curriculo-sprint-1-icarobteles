@@ -1,1 +1,94 @@
+*{
+    box-sizing: border-box;
+}
 
+body{
+    margin: 10px auto;
+    background-color: rgb(220, 240, 240);
+    border: 1px solid darkcyan;
+    padding: 10px 10px;
+    width: 1000px;
+    
+}
+
+#headshot, #name h1{
+    text-align: center;
+}
+
+#name h1{
+    font-size: 50px;
+    font-family: Verdana;
+    color:darkcyan;
+    text-shadow: 1px 1px rgb(1, 92, 92);
+    margin-bottom: -20px;
+}
+
+.sectionTitle{
+    font-size: 25px;
+    color: darkcyan;
+    text-shadow: 2px 1px rgb(171, 228, 228);
+    font-family: Georgia;
+    font-weight: 400px;
+    text-align: center;
+}
+
+#name h2{
+    font-size: 25px;
+    color: rgba(0, 139, 139, 0.849);
+    text-shadow: 2px 1px rgb(171, 228, 228);
+    font-family: Verdana;
+    text-align: center;
+}
+
+article h2{
+    font-size: 20px;
+    color: darkcyan;
+    font-family: Georgia;
+    margin-left: 25px;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(11, 87, 87);
+    font-family: sans-serif;
+    margin-left: 25px;
+    line-height: 20px;
+}
+
+
+
+li{
+    font-size: 15px;
+    color: rgb(11, 87, 87);
+    font-family: sans-serif;
+    margin-left: 0px;
+    line-height: 20px;
+}
+
+section{
+    border: 3px double darkcyan;
+    padding: 1px 10px 10px 10px;
+    margin: 10px 10px;
+}
+
+.sectionTitle{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.mainDetails ul{
+    border: 1px solid darkcyan;
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(11, 87, 87);
+    font-family: sans-serif;
+}
+
+.lastsubDetails{
+    line-height: 0px;
+}
+
+img{
+    border: 4px ridge darkcyan;
+    padding: 5px 5px;
+}
